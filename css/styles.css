@@ -701,7 +701,7 @@ body {
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -714,7 +714,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #ffffff;
+  background-color: var(--secondary-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
@@ -836,12 +836,16 @@ body {
   border: 1px solid var(--accent-color);
 }
 .modal-form-term:checked + .modal-form-check-description {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(47, 48, 58, 0.4);
 }
 
 .modal-form-link {
-  color: var(--accent-color);
+  color: rgb(33, 150, 243);
 }
+.modal-form-term:checked + .modal-form-check-description .modal-form-link {
+  color: rgb(33, 150, 243, 0.4);
+}
+
 .modal-form-btn {
   min-width: 200px;
   padding: 10px 55px 10px 56px;
