@@ -825,21 +825,20 @@ body {
   cursor: pointer;
   margin-right: 8.38px;
 }
-.modla-form-term:checked + .modal-form-check-description::before {
+.modal-form-term:checked + .modal-form-check-description::before {
   background-image: url(../images/icon-vector.svg);
   background-color: var(--accent-color);
   background-position: center;
   border: 0.2px solid var(--secondary-color);
   background-repeat: no-repeat;
 }
-.modla-form-term:focus + .modal-form-check-description::before {
+.modal-form-term:focus + .modal-form-check-description::before {
   border: 1px solid var(--accent-color);
 }
-.modla-form-term:checked
-  + .modal-form-check-description
-  .modal-form-check-description-span {
-  opacity: 0.4;
+.modal-form-term:checked + .modal-form-check-description {
+  color: rgba(0, 0, 0, 0.4);
 }
+
 .modal-form-link {
   color: var(--accent-color);
 }
