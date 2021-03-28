@@ -842,9 +842,6 @@ body {
 .modal-form-link {
   color: rgb(33, 150, 243);
 }
-.modal-form-term:checked + .modal-form-check-description .modal-form-link {
-  color: rgb(33, 150, 243, 0.4);
-}
 
 .modal-form-btn {
   min-width: 200px;
